@@ -1,0 +1,35 @@
+﻿  pch.cpp
+  DormitoryManager.cpp
+  DormitoryManagerDlg.cpp
+  DormMemberDlg.cpp
+  Dorm_Master.cpp
+  ErrorDialog.cpp
+  HandleRepairInfoDlg.cpp
+  Live_Login.cpp
+  ManagerDlg.cpp
+  ManageStudentAccountDlg.cpp
+  ManageStudentInfoDlg.cpp
+F:\C++\DormitoryManager\DormitoryManager\ManageStudentInfoDlg.cpp(50,9): warning C4101: “edit1”: 未引用的局部变量
+  ModifyPasswordDlg.cpp
+  QueryStudentInfoDlg.cpp
+  Repair_Info.cpp
+  ReportRepairDlg.cpp
+  SQLinterface.cpp
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(58,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(84,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(143,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(258,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(305,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(322,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(359,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(359,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(376,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(376,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(393,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+F:\C++\DormitoryManager\DormitoryManager\SQLinterface.cpp(393,25): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“CString”
+  StudentDlg.cpp
+  StudentModifyPasswordDlg.cpp
+  Student_Info.cpp
+  Student_Login.cpp
+  正在生成代码...
+  DormitoryManager.vcxproj -> F:\C++\DormitoryManager\x64\Debug\DormitoryManager.exe

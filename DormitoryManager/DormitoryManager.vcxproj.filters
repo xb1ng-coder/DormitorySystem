@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主窗口">
+      <UniqueIdentifier>{556ddbe7-281a-4546-9e5d-767841d0b318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="报错窗口（暂用::MessageBox）">
+      <UniqueIdentifier>{12d24bbf-dc1a-41ce-9b28-c1387633d150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生界面">
+      <UniqueIdentifier>{ee9002be-f422-4693-9b02-d06d989e0728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生界面\寝室人员">
+      <UniqueIdentifier>{28fa00a8-3f0b-4d70-b906-655c7a182f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生界面\报修">
+      <UniqueIdentifier>{9e515749-b4d4-47c6-9978-9a0717758348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生界面\修改密码">
+      <UniqueIdentifier>{1f571bc4-2a61-471d-9041-c8063c014a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库接口">
+      <UniqueIdentifier>{e3b3c170-5c0e-4c74-b8e2-f8ad95d866fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面">
+      <UniqueIdentifier>{070edaf0-8628-4e69-9bf6-59d3317bfc5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面\查看学生住宿信息">
+      <UniqueIdentifier>{d8bdfdf3-2f4c-4809-a2f1-3eb942d7ea32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面\处理报修信息">
+      <UniqueIdentifier>{419e9970-d7a7-4aa3-9282-e4204ad0a367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面\管理学生账号">
+      <UniqueIdentifier>{c903195d-3630-429a-9be4-c9069f5bd7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面\管理学生住宿信息">
+      <UniqueIdentifier>{66e2c280-9d3c-4840-969c-fb95bd3fc5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关系模式类">
+      <UniqueIdentifier>{bc1e71b8-9877-4094-afde-a382c52d2723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关系模式类\报修信息类">
+      <UniqueIdentifier>{2f515d86-611c-4665-802e-9614084cd308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关系模式类\学生信息类">
+      <UniqueIdentifier>{6d3eafd5-f7f8-4bc3-a674-6bf7154892b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关系模式类\学生登录账号类">
+      <UniqueIdentifier>{16448947-a446-40ae-a215-47efeb22774f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实时登录账户类">
+      <UniqueIdentifier>{8d4f7cf6-0cbd-4f71-abfb-4703ab4bde5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关系模式类\宿管员登录账户类">
+      <UniqueIdentifier>{41255d17-e1f5-47e2-80c5-1c47cf82b6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面\修改密码">
+      <UniqueIdentifier>{1fa157b0-6087-450f-bc07-9bd660c6b114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="宿管员界面\宿管员主界面">
+      <UniqueIdentifier>{627d1b74-5dc4-4ec9-a411-ed51f09a3e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生界面\学生主界面">
+      <UniqueIdentifier>{feb9f413-8cb1-4a84-9569-2beb3a7930ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DormitoryManagerDlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="DormitoryManager.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorDialog.h">
+      <Filter>报错窗口（暂用::MessageBox）</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerDlg.h">
+      <Filter>宿管员界面\宿管员主界面</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageStudentAccountDlg.h">
+      <Filter>宿管员界面\管理学生账号</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleRepairInfoDlg.h">
+      <Filter>宿管员界面\处理报修信息</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageStudentInfoDlg.h">
+      <Filter>宿管员界面\管理学生住宿信息</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryStudentInfoDlg.h">
+      <Filter>宿管员界面\查看学生住宿信息</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentModifyPasswordDlg.h">
+      <Filter>学生界面\修改密码</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportRepairDlg.h">
+      <Filter>学生界面\报修</Filter>
+    </ClInclude>
+    <ClInclude Include="DormMemberDlg.h">
+      <Filter>学生界面\寝室人员</Filter>
+    </ClInclude>
+    <ClInclude Include="Student_Info.h">
+      <Filter>关系模式类\学生信息类</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLinterface.h">
+      <Filter>数据库接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Repair_Info.h">
+      <Filter>关系模式类\报修信息类</Filter>
+    </ClInclude>
+    <ClInclude Include="Student_Login.h">
+      <Filter>关系模式类\学生登录账号类</Filter>
+    </ClInclude>
+    <ClInclude Include="Live_Login.h">
+      <Filter>实时登录账户类</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyPasswordDlg.h">
+      <Filter>宿管员界面\修改密码</Filter>
+    </ClInclude>
+    <ClInclude Include="Dorm_Master.h">
+      <Filter>关系模式类\宿管员登录账户类</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentDlg.h">
+      <Filter>学生界面\学生主界面</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DormitoryManagerDlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="DormitoryManager.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorDialog.cpp">
+      <Filter>报错窗口（暂用::MessageBox）</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerDlg.cpp">
+      <Filter>宿管员界面\宿管员主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyPasswordDlg.cpp">
+      <Filter>宿管员界面\修改密码</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageStudentAccountDlg.cpp">
+      <Filter>宿管员界面\管理学生账号</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleRepairInfoDlg.cpp">
+      <Filter>宿管员界面\处理报修信息</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageStudentInfoDlg.cpp">
+      <Filter>宿管员界面\管理学生住宿信息</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryStudentInfoDlg.cpp">
+      <Filter>宿管员界面\查看学生住宿信息</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentModifyPasswordDlg.cpp">
+      <Filter>学生界面\修改密码</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportRepairDlg.cpp">
+      <Filter>学生界面\报修</Filter>
+    </ClCompile>
+    <ClCompile Include="DormMemberDlg.cpp">
+      <Filter>学生界面\寝室人员</Filter>
+    </ClCompile>
+    <ClCompile Include="Student_Info.cpp">
+      <Filter>关系模式类\学生信息类</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLinterface.cpp">
+      <Filter>数据库接口</Filter>
+    </ClCompile>
+    <ClCompile Include="Repair_Info.cpp">
+      <Filter>关系模式类\报修信息类</Filter>
+    </ClCompile>
+    <ClCompile Include="Student_Login.cpp">
+      <Filter>关系模式类\学生登录账号类</Filter>
+    </ClCompile>
+    <ClCompile Include="Live_Login.cpp">
+      <Filter>实时登录账户类</Filter>
+    </ClCompile>
+    <ClCompile Include="Dorm_Master.cpp">
+      <Filter>关系模式类\宿管员登录账户类</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentDlg.cpp">
+      <Filter>学生界面\学生主界面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DormitoryManager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DormitoryManager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\jett.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
